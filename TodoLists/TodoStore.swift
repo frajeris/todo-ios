@@ -102,7 +102,7 @@ final class TodoStore: ObservableObject {
         lists = [
             TodoList(
                 name: "Reminders",
-                colorName: "blue",
+                colorName: "yellow",
                 iconName: "list.bullet",
                 items: [
                     TodoItem(title: "Buy groceries"),
@@ -112,7 +112,7 @@ final class TodoStore: ObservableObject {
             ),
             TodoList(
                 name: "Groceries",
-                colorName: "green",
+                colorName: "forest",
                 iconName: "cart",
                 items: [
                     TodoItem(title: "Milk"),
@@ -122,7 +122,7 @@ final class TodoStore: ObservableObject {
             ),
             TodoList(
                 name: "Work",
-                colorName: "orange",
+                colorName: "ochre",
                 iconName: "briefcase",
                 items: [
                     TodoItem(title: "Review pull request"),

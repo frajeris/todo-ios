@@ -8,6 +8,12 @@ struct TodoListsApp: App {
         WindowGroup {
             ListsView()
                 .environmentObject(store)
+                .preferredColorScheme(.dark)
+                .tint(KaminTheme.yellow)
+                .background(KaminTheme.black.ignoresSafeArea())
+                .overlay {
+                    GrainOverlay(opacity: 0.06)
+                }
         }
     }
 }

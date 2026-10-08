@@ -14,6 +14,7 @@
 		A30000000000000000000005 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* ListDetailView.swift */; };
 		A30000000000000000000006 /* NewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* NewListView.swift */; };
 		A30000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* Assets.xcassets */; };
+		A30000000000000000000008 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A20000000000000000000005 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 		A20000000000000000000006 /* NewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListView.swift; sourceTree = "<group>"; };
 		A20000000000000000000007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000008 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A10000000000000000000006 /* TodoLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				A20000000000000000000004 /* ListsView.swift */,
 				A20000000000000000000005 /* ListDetailView.swift */,
 				A20000000000000000000006 /* NewListView.swift */,
+				A20000000000000000000008 /* Theme.swift */,
 				A20000000000000000000007 /* Assets.xcassets */,
 			);
 			path = TodoLists;
@@ -143,6 +146,7 @@
 				A30000000000000000000004 /* ListsView.swift in Sources */,
 				A30000000000000000000005 /* ListDetailView.swift in Sources */,
 				A30000000000000000000006 /* NewListView.swift in Sources */,
+				A30000000000000000000008 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
